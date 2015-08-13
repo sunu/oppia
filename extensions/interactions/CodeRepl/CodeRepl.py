@@ -25,6 +25,7 @@ class CodeRepl(base.BaseInteraction):
     display_mode = base.DISPLAY_MODE_SUPPLEMENTAL
     _dependency_ids = ['jsrepl', 'codemirror']
     answer_type = 'CodeEvaluation'
+    instructions = 'Type code in the editor'
 
     # Language options 'lua' and 'scheme' have been removed for possible
     # later re-release.

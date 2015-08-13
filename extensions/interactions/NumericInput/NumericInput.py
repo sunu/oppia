@@ -26,5 +26,6 @@ class NumericInput(base.BaseInteraction):
     display_mode = base.DISPLAY_MODE_INLINE
     _dependency_ids = []
     answer_type = 'Real'
+    instructions = None
 
     _customization_arg_specs = []
